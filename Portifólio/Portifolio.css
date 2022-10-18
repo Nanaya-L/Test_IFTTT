@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    color: #837E9F;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap');
+
+body{
+    background-color: #22212C;
+    padding: 40px;
+}
+
+main{
+    display: flex;
+}
+
+
+#perfil{
+    background-color: #302F3D;
+    height: 292px;
+    width: 348px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+#perfil p{
+    margin-top: 10px;
+}
+#perfil img{
+    border: 2px solid green;
+}
+
+.image1{
+    height: 128px;
+    width: 128px;
+    border-radius: 64px;
+    margin-bottom: 30px;
+}
+
+#redes{
+    background-color: #302F3D;
+    height: 348px;
+    width: 348px;
+    position: absolute;
+    top: 362px;
+    display: flex;
+    padding-top: 30px;
+    border-radius: 12px;
+}
+
+#pins{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 40px;
+    justify-content: space-evenly;
+    height: 281px;
+}
+
+#pins img{
+    height: 24px;
+    width: 24px;
+    filter: drop-shadow(0 0 0 #837E9F) opacity(0.45);
+}
+
+#pins a{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+#tecnologias{
+    background-color: #302F3D;
+    height: 208px;
+    width: 348px;
+    position: absolute;
+    top: 740px;
+    padding: 30px 20px;
+    border-radius: 12px;
+}
+
+#techs{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    border-radius: 12px;
+}
+
+.leng{
+    margin-top: 20px;
+    height: 24px;
+    width: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #CB92B1;
+    color: #000000;
+    font-size: 12px;
+}
+
+#experiencias{
+    background-color: #302F3D;
+    height: 349px;
+    width: 348px;
+    position: absolute;
+    top: 978px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 12px;
+}
+
+.exp{
+    padding-left: 40px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 243px;
+    font-size: 12px;
+}
+
+#formação{
+    background-color: #302F3D;
+    height: 352px;
+    width: 348px;
+    position: absolute;
+    top: 1357px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 12px;
+}
+
+#projetos{
+    background-color: #302F3D;
+    height: 86px;
+    width: 852px;
+    position: absolute;
+    left: 448px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    border-radius: 12px;
+}
+
+#projetos a{
+    text-decoration: none;
+}
+
+#files{
+    display: flex;
+    position: absolute;
+    gap: 30px;
+    width: 852px;
+    top: 157px;
+    left: 448px;
+}
+
+.pastas{
+    background-color: #302F3D;
+    height: 186px;
+    width: 461px;
+    padding: 30px;
+    font-size: 12;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.pastas img{
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0 0 0 #837E9F) opacity(0.45);
+}
+
+#p1{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+#p2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#stats{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+#box{
+    display: flex;
+    gap: 7px;
+}
+
+#posts{
+    background-color: #302F3D;
+    height: 86px;
+    width: 852px;
+    position: absolute;
+    left: 448px;
+    top: 373px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    border-radius: 12px;
+}
+
+#posts a{
+    text-decoration: none;
+}
+
+#postagem{
+    background-color: #302F3D;
+    height: 201px;
+    width: 852px;
+    position: absolute;
+    left: 448px;
+    top: 489px;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-radius: 12px;
+}
+
+.info{
+    height: 129px;
+    width: 612px;
+    position: absolute;
+    left: 178px;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info h3{
+    height: 31px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tags{
+    display: flex;
+    gap: 10px;
+}
+.tags p{
+    width: 110px;
+}
+
+
+footer{
+    height: 19px;
+    width: 206px;
+    position: absolute;
+    left: 617px;
+    top: 1728px;
+}
